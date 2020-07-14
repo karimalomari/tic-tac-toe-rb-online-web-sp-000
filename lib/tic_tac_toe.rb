@@ -127,3 +127,4 @@ def play(board)
   while !over?(board) && !won?(board) && !draw?(board)
     turn(board)
   end
+end
