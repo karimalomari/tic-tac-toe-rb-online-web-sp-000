@@ -48,3 +48,13 @@ def turn(board)
   end
   display_board(board)
 end
+
+def turn_count(board)
+  count = 0
+  board.each do |index|
+    if index != " "
+      count += 1
+    end
+  end
+    count
+ end
