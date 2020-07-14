@@ -137,5 +137,4 @@ if won?(board)
  if draw?(board)
    puts "Cats Game!"
  end
-
 end
